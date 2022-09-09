@@ -18,34 +18,31 @@ Following the preprocessing and cleaning phase we have a total of 532 tradable c
 ### Clustering Cryptocurrencies using K-Means - Elbow Curve
 We don't know what would be the output of the analysis so we are using unsupervised machine learning to identify clusters of the cryptocurrencies.\
 We produced the elbow curve below using the K-Means method iterating on k values from 1 to 10. 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/68669675/101305766-01251280-3809-11eb-92f0-0ecb880db7fe.png"> 
-</p>
+
+   <img src='https://user-images.githubusercontent.com/104115586/189263192-b427706e-41ae-4d62-afe4-3f0cf945851d.png'>
+
+
 The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
 <br><br>
 
 ### Visualizing Cryptocurrencies Results
+
 #### 3D-Scatter plot with clusters
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/68669675/101305762-008c7c00-3809-11eb-9c47-95b4d582b784.png"> 
-</p>
+   
+   <img src='https://user-images.githubusercontent.com/104115586/189263369-63506090-57d5-417b-8349-313c54df3326.png'>
+
+
+
 This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.
 <br><br>
 
-#### 2D-Scatter plot with clusters
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/68669675/101305760-fff3e580-3808-11eb-9614-12a0102ed1f6.png"> 
-</p>
-This 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
-<br><br>
-Both these scatter plots show the distribution and the four clusters of cryptocurrencies.<br>
-We can identify the outliers like the unique cryptocurrency in the class #2.
-<br><br>
 
 #### Tradable Cryptocurrencies Table
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/68669675/101307931-41d35a80-380e-11eb-942f-7a8f23887d05.png"> 
-</p>
+
+     
+  <img src='https://user-images.githubusercontent.com/104115586/189263258-3e6aeaa8-6d37-41d2-8c94-407b9809d490.png'>
+
+
 Most of the cryptocurrencies are part of class #0 and #1.<br>
 The snapshot above shows that BitTorrent is the only cryptocurrency in class #2.
 <br><br>
